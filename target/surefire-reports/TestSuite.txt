@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 3.815 s <<< FAILURE! - in TestSuite
+patchUser(testCases.TC_ResReqAPI)  Time elapsed: 0.178 s  <<< FAILURE!
+java.lang.AssertionError: expected:<true> but was:<updatedAt>
+	at testCases.TC_ResReqAPI.patchUser(TC_ResReqAPI.java:91)
+
